@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sudoku_game_background"
+    android:padding="3dp"
+    tools:context="fall2018.csc2017.game_centre.sudoku.SudokuGameActivity">
+
+    <TextView
+        android:id="@+id/player_textview"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/player_textview"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Player"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/time_plaintext"
+        android:text="@string/time_plaintext"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/mistake"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/mistakes"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/mistakeTime"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/num_of_mistake"
+        android:textSize="20sp" />
+
+
+    <fall2018.csc2017.game_centre.sudoku.SudokuGridView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/sudokuGridView"
+        android:layout_width="390dp"
+        android:layout_height="390dp"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        tools:context="fall2018.csc2017.game_centre.sudoku.SudokuGameActivity">
+
+    </fall2018.csc2017.game_centre.sudoku.SudokuGridView>
+
+    <Button
+        android:id="@+id/buttonHint"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/sudoku_game_buttons"
+        android:text="@string/button_hint" />
+
+    <Button
+        android:id="@+id/AnswerButton1"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/sudoku_game_buttons"
+        android:text="@string/answer_button_1"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/AnswerButton2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/sudoku_game_buttons"
+        android:text="@string/answer_button_2"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/AnswerButton3"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/sudoku_game_buttons"
+        android:text="@string/answer_button_3"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/AnswerButton4"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/sudoku_game_buttons"
+        android:text="@string/answer_button_4"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/AnswerButton5"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/sudoku_game_buttons"
+        android:text="@string/answer_button_5"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/AnswerButton6"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/sudoku_game_buttons"
+        android:text="@string/answer_button_6"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/AnswerButton7"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/sudoku_game_buttons"
+        android:text="@string/answer_button_7"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/AnswerButton8"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="315dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/sudoku_game_buttons"
+        android:text="@string/answer_button_8"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/AnswerButton9"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="360dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/sudoku_game_buttons"
+        android:text="@string/answer_button_9"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/HintsRemaining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="120dp"
+        android:text="@string/hints_remaining"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Hints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/player_textview"
+        android:layout_alignBottom="@+id/HintsRemaining"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="-3dp"
+        android:text="@string/hints"
+        android:textStyle="bold"
+        android:textSize="22sp" />
+
+
+</RelativeLayout>

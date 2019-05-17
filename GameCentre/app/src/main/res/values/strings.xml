@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">GameCentre</string>
+
+    <!-- LoginActivity SignUpActivity -->
+    <string name="title_activity_login">Login</string>
+    <string name="loginpassword">Password</string>
+    <string name="loginlogin">Login</string>
+    <string name="sign_up_here">Sign up Here</string>
+    <string name="username">Username</string>
+    <string name="signupusername">Username</string>
+    <string name="password">Password</string>
+    <string name="signup">signup</string>
+
+    <!-- Game Centre Activity -->
+    <string name="game_centre_header">Game Centre</string>
+    <string name="game_centre_slidingtiles">SlidingTiles</string>
+    <string name="game_centre_sudoku">Sudoku</string>
+
+    <!-- SlidingTiles Starting Activity -->
+    <string name="welcome">Welcome To</string>
+    <string name="sliding_tiles_title">Sliding Tiles</string>
+    <string name="sliding_tiles_description">A Puzzle Game where you must arrange the numbers in the correct order</string>
+    <string name="load_saved_game_button">Load Saved Game</string>
+    <string name="new_game_button">New Game</string>
+    <string name="save_game_button">Save Game</string>
+    <string name="scoreboard_button">Scoreboard</string>
+    <string name="dialog_dimension_prompt">Dimension:</string>
+    <string name="dialog_undo_prompt">Maximum undo:</string>
+    <string name="dialog_start_button">Start</string>
+
+    <!-- SlidingTiles Scoreboard Activity -->
+    <string name="back1">Back</string>
+    <string name="score_board">Score Board</string>
+    <string name="second">Second</string>
+    <string name="first">First</string>
+    <string name="third">Third</string>
+    <string name="fourth">Fourth</string>
+    <string name="fifth">Fifth</string>
+    <string name="current_player_score">holder</string>
+
+    <!-- SlidingTiles Game Activity -->
+    <string name="back">Back</string>
+    <string name="undo">undo</string>
+    <string name="change_background">Change Background</string>
+    <string name="time_textview">TextView</string>
+    <string name="move_textview">TextView</string>
+    <string name="move_plaintext">Move:</string>
+    <string name="time_plaintext">Player:</string>
+    <string name="move_textview_s">move_textview</string>
+    <string name="time_textview_s">time_textview</string>
+    <string name="player_textview">TextView</string>
+
+    <!-- Miscellaneous -->
+    <string name="sudoku_title">Sudoku</string>
+    <string name="back_button">Back</string>
+    <string name="ghost_hunt_description">Escape from the maze and get away from the ghost!</string>
+    <string name="ghost_hunt_title">Ghost Hunt</string>
+
+    <!-- Sudoku Starting Activity -->
+    <string name="sudoku_description">A logic based combinational number puzzle</string>
+    <string name="dialog_difficulty_prompt">Difficulty:</string>
+    <string name="dialog_easy_button">Easy</string>
+    <string name="dialog_medium_button">Medium</string>
+    <string name="dialog_hard_button">Hard</string>
+    <string name="button_hint">Hint</string>
+    <string name="answer_button_1">1</string>
+    <string name="answer_button_2">2</string>
+    <string name="answer_button_3">3</string>
+    <string name="answer_button_4">4</string>
+    <string name="answer_button_5">5</string>
+    <string name="answer_button_6">6</string>
+    <string name="answer_button_7">7</string>
+    <string name="answer_button_8">8</string>
+    <string name="answer_button_9">9</string>
+    <string name="hints_remaining">Hints Remaining:</string>
+    <string name="hints">3</string>
+    <string name="mistakes">Mistakes:</string>
+    <string name="num_of_mistake">0</string>
+
+</resources>

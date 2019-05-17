@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/sldingtile_game_background"
+tools:context="fall2018.csc2017.game_centre.slidingtiles.SlidingTilesGameActivity">
+
+    <fall2018.csc2017.game_centre.slidingtiles.GestureDetectGridView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="55dp"
+        tools:context="fall2018.csc2017.slidingtiles.SlidingTilesGameActivity">
+
+    </fall2018.csc2017.game_centre.slidingtiles.GestureDetectGridView>
+
+    <Button
+        android:id="@+id/undo"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/slidingtile_game_button"
+        android:text="@string/undo" />
+
+    <Button
+        android:id="@+id/changeBackground"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/slidingtile_game_button"
+        android:text="@string/change_background" />
+
+    <TextView
+        android:id="@+id/move_textview"
+        android:layout_width="83dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="270dp"
+        android:text="@string/move_textview"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/player_textview"
+        android:layout_width="83dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="85dp"
+        android:text="@string/player_textview"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Player"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/time_plaintext"
+        android:text="@string/time_plaintext"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/move_plaintext"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="120dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/move_plaintext"
+        android:text="@string/move_plaintext"
+        android:textSize="18sp" />
+
+</RelativeLayout>
