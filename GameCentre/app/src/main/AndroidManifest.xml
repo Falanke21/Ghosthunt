@@ -11,50 +11,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
+
         <activity
-            android:name="fall2018.csc2017.game_centre.LoginActivity"
-            android:label="@string/title_activity_login"
-            android:screenOrientation="portrait">
+            android:name="fall2018.csc2017.game_centre.ghost_hunt.GhostHuntStartingActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="fall2018.csc2017.game_centre.SignUpActivity"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name="fall2018.csc2017.game_centre.GameCentreActivity"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name="fall2018.csc2017.game_centre.ProfileActivity"
-            android:screenOrientation="portrait"/>
-
-        <activity
-            android:name="fall2018.csc2017.game_centre.slidingtiles.SlidingTilesStartingActivity"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name="fall2018.csc2017.game_centre.slidingtiles.SlidingTilesGameActivity"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name="fall2018.csc2017.game_centre.slidingtiles.SlidingTilesScoreBoardActivity"
-            android:screenOrientation="portrait"/>
-
-        <activity
-            android:name="fall2018.csc2017.game_centre.sudoku.SudokuStartingActivity"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name="fall2018.csc2017.game_centre.sudoku.SudokuGameActivity"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name="fall2018.csc2017.game_centre.sudoku.SudokuScoreBoardActivity"
-            android:screenOrientation="portrait"/>
-
-        <activity
-            android:name="fall2018.csc2017.game_centre.ghost_hunt.GhostHuntStartingActivity"
-            android:screenOrientation="portrait"
-            android:configChanges="orientation|keyboardHidden"/>
         <activity
             android:name="fall2018.csc2017.game_centre.ghost_hunt.GhostHuntScoreboardActivity"
             android:screenOrientation="portrait"/>

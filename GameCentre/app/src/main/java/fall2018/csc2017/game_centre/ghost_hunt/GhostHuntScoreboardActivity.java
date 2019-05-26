@@ -52,6 +52,7 @@ public class GhostHuntScoreboardActivity extends AppCompatActivity {
             int time = (int) getIntent().getExtras().get("totalTime");
             ArrayList updateParam =
                     new ArrayList<>(Arrays.asList(move, time));
+            // TODO
             update(updateParam);
         }
         scoreBoard.formatUsers(Game.GhostHunt, users, scoreFileHandler.leaderBoard); // sorts user information and prepares them for display

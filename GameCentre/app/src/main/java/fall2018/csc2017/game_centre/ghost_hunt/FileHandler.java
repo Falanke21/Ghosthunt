@@ -120,6 +120,7 @@ class FileHandler implements Savable, Loadable {
      * @param context context
      */
     public void saveToFile(Context context) {
+        // TODO: save location
         String fileName = CurrentStatus.getCurrentUser().getUserFilename(Game.GhostHunt);
         try {
             ObjectOutputStream outputStream = new ObjectOutputStream(context.openFileOutput(fileName, Context.MODE_PRIVATE));
